@@ -45,3 +45,18 @@ car_model = Hash[car_brand.zip(model)]
 
 puts car_model
 
+
+# modulo
+
+for i in 1..100
+		if i % 3 ==0
+			print "fizz"
+		elsif i % 5 == 0
+			print "buzz"
+		elsif i % 3 == 0 && i % 5 ==0
+			print "fizzbuzz"
+		else
+		    print "#{i}"
+        end
+end
+
